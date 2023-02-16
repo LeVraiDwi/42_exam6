@@ -6,6 +6,8 @@
 #include <sys/wait.h>
 #include <string.h>
 
+//nc -N localhost 6667 < txt
+
 int main(int ac, char **av)
 {
     int port;
